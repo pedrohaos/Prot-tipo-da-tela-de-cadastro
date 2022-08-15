@@ -1,0 +1,86 @@
+*{margin:0; padding: 0;}
+
+.caixa{
+    background: #000000;
+    box-shadow: 0px 10px 0px 0 #ff0000;
+}
+
+h2{
+   position: absolute;
+   top:80px;
+   left:900px;
+   font-size:40px;
+   color:#ffffff;
+}
+
+main{
+    background: #BBBBBB;
+}
+
+fieldset{
+    border: 0;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+
+select{
+    margin-bottom:20px;
+    background: #dfd9d9;
+}
+
+label{
+    text-transform: uppercase;
+    display: block;
+    font-size:15px;
+}
+
+.input-padrao{
+    display:block;
+    margin-bottom:20px;
+    padding: 10px 25px;
+    width: 50%;
+    border: none;
+    background: #dfd9d9;
+}
+
+.salvar{
+    margin-left:43%;
+    width: 10%;
+    padding: 15px 0;
+    background: red;
+    color: white;
+    font-weight: bold;
+    font-size: 18px;
+    border: none;
+    border-radius: 5px;
+    transition: 1s all;/*é um delay para iniciar o hover*/
+    cursor: pointer;/*transforma o cursor em uma mão*/
+}
+
+.salvar:hover{
+    background: darkred;
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 480px){
+.caixa{
+    width:400%;
+}
+
+h1{
+    text-align: center;
+}
+
+h2{
+    position: static;
+    text-align: center;
+}
+
+main{
+    width:500%;
+}
+
+label{
+font-size: 40px;
+}
+}
